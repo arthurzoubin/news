@@ -1,0 +1,53 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "react-native",
+    "flowtype",
+    "jsx-a11y",
+    "import"
+  ],
+  "globals": {
+    "__DEV__": true,
+    "require": true,
+    "expect": true,
+    "jest": true
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true,
+    "amd": false,
+    "mocha": true,
+    "jasmine": false,
+    "phantomjs": false,
+    "jquery": false,
+    "prototypejs": false,
+    "shelljs": false
+  },
+  "rules": {
+    "arrow-body-style": 0,
+    "global-require": 0,
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "import/no-named-as-default-member": 0,
+    "import/no-self-import": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default": 0,
+    "import/prefer-default-export": 0,
+    "react/prefer-stateless-function": 0,
+    "react/destructuring-assignment": 0,
+    "react/require-default-props": [0],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
+}
